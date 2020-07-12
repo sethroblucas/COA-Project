@@ -4,6 +4,13 @@ $header3: 2.5rem;
 $header4: 2rem;
 $text: 2.5rem;
 $background-color: #000000;
+$white: #ffffff;
+$black: #000000;
+$yellow: #faed26;
+$violet: #46344e;
+$magenta: #5a5560;
+$gray: #9d8d8f;
+$brown: #9b786f;
 
 @mixin flex($justify, $align, $direction) {
   display: flex;
