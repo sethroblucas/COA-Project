@@ -5,7 +5,7 @@
 
 .landing-main {
   @include flex(center, center, column);
-  transform: translateY(35%);
+  margin-top: 15rem;
 }
 
 #landing-links {
@@ -25,4 +25,18 @@
   text-align: center;
   padding: 3rem;
   text-decoration: none;
+  color: $black;
+}
+
+#landing-links li a:hover {
+  color: $yellow;
+}
+
+#instagram-link {
+  position: fixed;
+  @include flex(center, center, column);
+  width: 3%;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
 }
