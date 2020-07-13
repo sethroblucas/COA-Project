@@ -22,3 +22,9 @@ $brown: #9b786f;
 
 @import "global";
 @import "landing";
+
+@media (max-width: 475px) {
+  #landing-links li a {
+    padding: 1.5rem;
+  }
+}

@@ -58,9 +58,10 @@ html {
 #landing-links li a {
   display: block;
   text-align: center;
-  padding: 3rem;
+  padding: 3.5rem;
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
+  font-family: "Muli", sans-serif;
 }
 
 #landing-links li a:hover {
@@ -83,9 +84,15 @@ html {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 3%;
-  bottom: 2rem;
+  bottom: 5rem;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+@media (max-width: 475px) {
+  #landing-links li a {
+    padding: 1.5rem;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

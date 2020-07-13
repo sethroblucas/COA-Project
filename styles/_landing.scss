@@ -33,9 +33,10 @@
 #landing-links li a {
   display: block;
   text-align: center;
-  padding: 3rem;
+  padding: 3.5rem;
   text-decoration: none;
-  color: $black;
+  color: $white;
+  font-family: "Muli", sans-serif;
 }
 
 #landing-links li a:hover {
@@ -46,7 +47,7 @@
   position: fixed;
   @include flex(center, center, column);
   width: 3%;
-  bottom: 2rem;
+  bottom: 5rem;
   left: 50%;
   transform: translateX(-50%);
 }
