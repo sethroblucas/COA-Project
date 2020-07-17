@@ -12,6 +12,7 @@ $violet: #46344e;
 $magenta: #5a5560;
 $gray: #9d8d8f;
 $brown: #9b786f;
+$pad: 0.925rem;
 
 @mixin flex($justify, $align, $direction) {
   display: flex;
@@ -22,6 +23,7 @@ $brown: #9b786f;
 
 @import "global";
 @import "landing";
+@import "about";
 
 @media (max-width: 475px) {
   #landing-links li a {
