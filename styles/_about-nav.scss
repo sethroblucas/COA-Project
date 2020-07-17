@@ -63,7 +63,7 @@
       display: block;
       z-index: 0;
       font-family: Muli;
-      font-size: $header4;
+      font-size: $header3;
       text-indent: -20em;
       white-space: nowrap;
       transition: text-indent 400ms ease-in-out;
@@ -92,13 +92,13 @@
 .main-head {
   position: fixed;
   bottom: 0;
-  width: 83px;
+  width: 150px;
   height: 100%;
   z-index: 1;
   background: $magenta;
   transition: width 400ms;
   &:hover {
-    width: 436px;
+    width: 336px;
     & + .wrap-all-the-things {
       transform: translateX(336px);
       max-width: 100%;
@@ -136,6 +136,13 @@
     }
   }
 }
+.nav-logo {
+  @include flex(center, center, column);
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  margin-left: 1.8rem;
+  width: 75%;
+}
 .wrap-all-the-things {
   min-height: 100%;
   height: 100%;
@@ -145,6 +152,7 @@
   margin: {
     top: 0;
   }
+  background-color: $violet;
   background-size: cover;
   background-position: center center;
   transition: transform 400ms, opacity 400ms;
