@@ -16,6 +16,10 @@ body {
   height: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 #myVideo {
   -o-object-fit: cover;
      object-fit: cover;
@@ -94,6 +98,15 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
+}
+
+footer {
+  background: #9d8d8f;
+  color: #faed26;
+  min-height: 10vh;
+  padding: 0% 5%;
+  font-size: 2rem;
+  font-family: "Muli";
 }
 
 .hide {
