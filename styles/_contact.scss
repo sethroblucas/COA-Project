@@ -1,0 +1,38 @@
+.form-section {
+  min-height: 90vh;
+  @include flex(center, center, row);
+  form {
+    padding: 3rem 10rem;
+    background: $brown;
+    @include flex(center, center, column);
+    border-radius: 2rem;
+
+    label {
+      font-size: $header4;
+      font-family: "Muli";
+    }
+    input,
+    textarea {
+      margin: 2rem;
+      font-size: $header4;
+      &:focus {
+        outline: 2px solid black;
+      }
+    }
+    textarea {
+      font-family: "Muli";
+      font-size: $header4;
+    }
+    button {
+      width: 100%;
+      padding: 2rem;
+      font-family: "Muli";
+      font-size: $header4;
+      background-color: $magenta;
+      color: white;
+      &focus {
+        background: rgb(51, 105, 107);
+      }
+    }
+  }
+}
