@@ -101,7 +101,7 @@ ul {
 }
 
 footer {
-  background: #9d8d8f;
+  background: #000000;
   color: #faed26;
   min-height: 10vh;
   padding: 0% 5%;
@@ -114,15 +114,15 @@ footer {
 }
 
 .head-nav li:hover {
-  background-color: #5a5560;
+  background-color: #9d8d8f;
 }
 
 .head-nav li:hover:before {
-  background-color: #5a5560;
+  background-color: #9d8d8f;
 }
 
 .head-nav li:hover svg {
-  background: #5a5560;
+  background: #9d8d8f;
   fill: #faed26;
 }
 
@@ -198,7 +198,7 @@ footer {
   max-height: 30px;
   z-index: 1;
   fill: #ffffff;
-  background: #5a5560;
+  background: #9d8d8f;
   -webkit-transition: 400ms;
   transition: 400ms;
 }
@@ -218,7 +218,7 @@ footer {
   width: 150px;
   height: 100%;
   z-index: 1;
-  background: #5a5560;
+  background: #9d8d8f;
   -webkit-transition: width 400ms;
   transition: width 400ms;
 }
@@ -296,7 +296,8 @@ footer {
   height: 100%;
   padding-left: 140px;
   margin-top: 0;
-  background-color: #46344e;
+  background: #9b786f;
+  background: radial-gradient(circle, #9b786f 0%, #5a5560 43%, #46344e 83%);
   background-size: cover;
   background-position: center center;
   -webkit-transition: opacity 400ms, -webkit-transform 400ms;
@@ -309,76 +310,6 @@ footer {
   .wrap-all-the-things {
     padding-left: 70px;
   }
-}
-
-.form-section {
-  min-height: 90vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.form-section form {
-  padding: 3rem 10rem;
-  background: #9b786f;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  border-radius: 2rem;
-}
-
-.form-section form label {
-  font-size: 2rem;
-  font-family: "Muli";
-}
-
-.form-section form input,
-.form-section form textarea {
-  margin: 2rem;
-  font-size: 2rem;
-}
-
-.form-section form input:focus,
-.form-section form textarea:focus {
-  outline: 2px solid black;
-}
-
-.form-section form textarea {
-  font-family: "Muli";
-  font-size: 2rem;
-}
-
-.form-section form button {
-  width: 100%;
-  padding: 2rem;
-  font-family: "Muli";
-  font-size: 2rem;
-  background-color: #5a5560;
-  color: white;
-}
-
-.form-section form buttonfocus {
-  background: #33696b;
 }
 
 @media (max-width: 475px) {
