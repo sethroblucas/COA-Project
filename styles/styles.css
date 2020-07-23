@@ -312,6 +312,12 @@ footer {
   }
 }
 
+@media (max-width: 600px) {
+  .main-head {
+    opacity: 0;
+  }
+}
+
 .background {
   display: -webkit-box;
   display: -ms-flexbox;

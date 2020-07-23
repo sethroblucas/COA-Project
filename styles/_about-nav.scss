@@ -168,3 +168,9 @@
     }
   }
 }
+
+@media (max-width: 600px) {
+  .main-head {
+    opacity: 0;
+  }
+}
