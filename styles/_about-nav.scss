@@ -152,7 +152,13 @@
   margin: {
     top: 0;
   }
-  background: $white;
+  background: rgb(155, 120, 111);
+  background: radial-gradient(
+    circle,
+    rgba(155, 120, 111, 1) 0%,
+    rgba(90, 85, 96, 1) 74%,
+    rgba(70, 52, 78, 1) 100%
+  );
   background-size: cover;
   background-position: center center;
   transition: transform 400ms, opacity 400ms;

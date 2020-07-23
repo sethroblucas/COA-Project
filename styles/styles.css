@@ -296,7 +296,8 @@ footer {
   height: 100%;
   padding-left: 140px;
   margin-top: 0;
-  background: #ffffff;
+  background: #9b786f;
+  background: radial-gradient(circle, #9b786f 0%, #5a5560 74%, #46344e 100%);
   background-size: cover;
   background-position: center center;
   -webkit-transition: opacity 400ms, -webkit-transform 400ms;
@@ -329,7 +330,7 @@ footer {
 
 .screen {
   position: relative;
-  background: #3e3e3e;
+  background: #46344e;
   border-radius: 15px;
 }
 
@@ -428,19 +429,19 @@ footer {
 }
 
 .app-form-control::-webkit-input-placeholder {
-  color: #666;
+  color: #ffffff;
 }
 
 .app-form-control:-ms-input-placeholder {
-  color: #666;
+  color: #ffffff;
 }
 
 .app-form-control::-ms-input-placeholder {
-  color: #666;
+  color: #ffffff;
 }
 
 .app-form-control::placeholder {
-  color: #666;
+  color: #ffffff;
 }
 
 .app-form-control:focus {

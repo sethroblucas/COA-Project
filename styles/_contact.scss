@@ -12,7 +12,7 @@
 
 .screen {
   position: relative;
-  background: #3e3e3e;
+  background: #46344e;
   border-radius: 15px;
 }
 
@@ -95,7 +95,7 @@
 }
 
 .app-form-control::placeholder {
-  color: #666;
+  color: $white;
 }
 
 .app-form-control:focus {
